@@ -39,7 +39,7 @@ public class Airline_Controller {
                     service.createPassenger(passId, name, email, phone);
                     break;
 
-                case 2:  // Add Flight
+                case 2:  
                     System.out.print("Enter Flight ID: ");
                     String flightId = sc.next();
                     System.out.print("Enter Airline Name: ");
@@ -63,14 +63,13 @@ public class Airline_Controller {
                     System.out.print("Enter Passenger ID: ");
                     String bookPassId = sc.next();
 
-                    // Ask for source and destination to show available flights
                     System.out.print("Enter Source: ");
                     String source1 = sc.next();
                     System.out.print("Enter Destination: ");
                     String destination1 = sc.next();
 
                     System.out.println("Available flights for your route:");
-                    service.searchFlights(source1, destination1);  // Add this method in Airline_Service
+                    service.searchFlights(source1, destination1);  
 
                     System.out.print("Enter Flight ID to book: ");
                     String bookFlightId = sc.next();
@@ -105,7 +104,7 @@ public class Airline_Controller {
                     service.viewAllPassengers();
                     break;
 
-                case 8:  // View Flights
+                case 8: 
                     service.viewAllFlights();
                     break;
 
