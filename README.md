@@ -87,3 +87,10 @@ A **console-based Java application** that simulates basic airline booking operat
 2. **Compile and run the Java files:**
     javac Airline_Example_Controller/Airline_Controller.java
     java Airline_Example_Controller.Airline_Controller
+### 👩‍💻 Developed By
+
+**Roshini Yajjavarapu**  
+📧 *roshini.ece2024.rce@gmail.com*  
+🎓 *B.Tech (Electronics & Communication Engineering)*  
+🌐 [LinkedIn Profile](https://www.linkedin.com/in/roshini-y-291905253/)  
+🌍 *Passionate about Full Stack Development & Software Engineering*
